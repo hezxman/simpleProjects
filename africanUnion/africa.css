@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.green{
+    display: flex;
+background-color: rgb(6, 83, 6);
+padding: 8px;
+}
+.news{
+     background-color:#b3a18a;
+     width: 50px;
+     height: 30px;
+     text-align: center;
+     margin-left: 140px;
+     font-size: 12px;
+}
+.news p {
+    position: relative;
+    top: 8px;
+}
+
+.green ul{
+list-style: none;
+ display: inline-flex;
+ margin-left: 920px;
+ align-items: center;
+}
+
+.green ul li{
+    border-right: 1px solid white;
+}
+
+.green ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+.active, .green ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.white{
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid gray;
+}
+
+.webmail {
+    width: 80px;
+    height: 30px;
+    background-color:#8d021f;
+    text-align: center;
+    margin-left: 138px;
+}
+
+.webmail a{
+    position: relative;
+    top: 3px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 11px;
+}
+
+.font-awesome i{
+    flex-direction: row-reverse;
+    position: relative;
+    left: 986px;
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.font-awesome i:first-child{
+    border-left: 1px solid black;
+    padding-left: 20px;
+}
+
+
+
+.sub-head{
+    display: flex;
+}
+
+.africa-logo{
+  float: left;
+  margin-top: 20px;
+  margin-left: 140px;
+}
+
+.info-space{ 
+background-color: #281700;
+margin-left: 220px;
+margin-top: 20px;
+width: 90%;
+height: 17vh;
+margin-right: 145px;
+text-align: center;
+color: white;
+}
+
+.menu-bar ul{
+    background-color: rgb(6, 83, 6);
+    display: inline-flex;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 156px;
+}
+
+.menu-bar ul li{
+    padding: 15px 20px;
+    text-transform: uppercase;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+
+.menu-bar ul li i{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.menu-bar ul li ul{
+    display: none;
+}
+
+.menu-bar ul li:hover ul{
+    position: absolute;
+    display: inline-flex;
+    background-color: rgb(6, 83, 6);
+    list-style-type: none;
+    margin-top: 32px;
+    border-top: 2px solid white;
+    width: 81.05%;
+    height: 75vh;
+    margin-left: -189px;
+    z-index: 1;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.menu-bar ul li:hover ul li{
+    border: none;
+    margin-top: 20px;
+    margin-left: -55px;
+}
+
+
+#search-icon{
+    padding-right: 173px;
+    position: relative;
+    left: 175px;
+    font-size: 15px;
+}
+
+.body h2{
+    font-size: 30px;
+    color:#8d021f;
+    font-weight: 40;
+    margin-top: 60px;
+    margin-left: 170px;
+}
+
+.body h4{
+    margin-top: 25px;
+    margin-left: 500px; 
+    color: rgb(27, 73, 88);
+    opacity: 0.8;
+}
+
+.body p{
+    margin-left: 500px;
+    font-size: 17px;
+    color: rgb(35, 98, 119);
+    font-weight: 100;
+    opacity: .8;
+}
+
+.table{
+    margin-left: 200px;
+}
+
+th{
+    background-color:#6a8126f5;
+    width: 70%;
+}
+
+th:hover{
+    color: white;
+}
+
+table, th, td{
+  margin-top: 40px; 
+  border: 1px solid rgb(153, 174, 175);
+  border-collapse: collapse;
+  font-weight: thin;
+  font-size: 14px;
+  margin-right: 140px;
+}
+
+
+th, td{
+  padding: 10px;
+  text-align: left;
+}
+
+.table tr:nth-child(odd){
+    background-color:#e0ddd8a6;
+    opacity: .8;
+}
+
+
+.table tr:nth-child(even){
+    background-color:#fff;
+    opacity: .8;
+}
+
+.table tr:hover{
+    background-color:#e0ddd8a6;  
+}
+
+.menu-bar ul li:not(:last-child):hover {
+    background-color:#6a8126f5;
+}
+
+
+.foot-head{
+    display: inline;
+    position: absolute;
+}
+
+.foot-1{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.foot-2{
+    margin-left: 550px;
+    margin-top: -220px;
+}
+
+.foot-2 i{
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.foot-3{
+    margin-left: 800px;
+    margin-top: -52px;
+}
+
+.foot-4{
+    margin-left: 1200px;
+    margin-top: -135px;
+}
+
+.sub-foot{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 400px;
+    margin-left: 195px;
+}
+
+.sub-link{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+.africa-logo-1{
+    cursor: pointer;
+}
+
+.sub-link li{
+    width: 110px;
+    cursor: pointer;
+}
+
+.sub-link p{
+    margin-left: 380px;
+}
+
+
+
+
+
+
+
+
+
+
