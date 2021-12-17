@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+.head{
+    background-color: #000;
+    height: 60px;
+
+}
+
+.head h2 a{
+    font-size: 40px;
+text-decoration: none;
+font-size: 47px;
+color: #fff;
+}
+
+.head h2 span{
+    background-color: red;
+    padding: 3px;
+   font-size: 20px; 
+   color: #fff;
+   position: absolute;
+   top: 40px;
+
+
+}
+
+.head .barlink{
+  text-align: center;  
+}
+ 
+
+.barlink ul{
+    list-style: none;
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.barlink ul li a{
+    text-decoration: none;
+    position: relative;
+    top: -80px;
+    margin-right: 50px;
+    color: rgb(158, 153, 153);
+}
+
+.btn button{
+    position: absolute;
+    margin-left: 1440px;
+    margin-top: -50px;
+    padding: 6px 25px;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.gray-bar{
+    margin: 0;
+    padding: 25px;
+    background-color: rgb(71, 67, 67);
+}
+
+.second-bar input{
+    padding: 9px 72px;
+    margin-top: -5px;
+    border-radius: 2px;
+    border: none;
+    text-align: left;
+}
+
+.second-bar #txt{
+    margin-left: 27px;
+}
+
+.third-bar input{
+    padding: 9px 8px;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: none;
+}
+
+.third-bar button{
+    padding: 9px 25px;
+    background-color: #fff;
+    border: 2px solid #fff;
+
+}
+
+.third-bar button a{
+   text-decoration: none;
+}
+
+.third-bar #type{
+    width: 107px;
+}
+
+.third-bar #dep{
+    background-color: rgb(41, 39, 39);
+   color: #fff;
+}
+
+.container{
+    width: 735px;
+    height: 410px;
+    background-color: #fff;
+    margin: 0px 15px;
+    border-radius: 5px;
+    margin-top: -12px;
+}
+
+.container h4{
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-weight: 100;
+    opacity: 0.9;
+    padding-bottom: 20px;
+
+}
+
+.container p{
+    width: 350px;
+    padding: 10px 0px;
+    margin-top: -13px;
+    margin-left: 15px;
+    background-color: lightgray;
+    padding: 17px 0px;
+    font-family: sans-serif;
+    opacity: 0.9;
+}
+
+.container .ville{
+    position: relative;
+    top: -275px;
+    left: 355px;
+}
+
+.container i{
+    margin-left: 13px;
+}
+
+.demo button{
+    position: relative;
+    top: -275px;
+    left: 588.5px;
+    padding: 10px;
+    border: none;
+    background-color: lightgray;
+    font-family: sans-serif;
+    
+}
+
+.demo button a{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.9;
+}
